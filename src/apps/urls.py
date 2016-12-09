@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-from view import *
+from views import *
 
 urlpatterns = [
     url(r'^$', index),
